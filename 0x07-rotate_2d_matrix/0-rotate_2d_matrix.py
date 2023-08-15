@@ -8,10 +8,8 @@ You can assume the matrix will have 2 dimensions and will not be empty.
 """
 
 
-def rotate_2d_metrix(matrix):
+def rotate_2d_matrix(matrix):
     n = len(matrix)
-
-    """ Rotate 2D Matrix """
 
     for i in range(n):
         for j in range(i, n):
