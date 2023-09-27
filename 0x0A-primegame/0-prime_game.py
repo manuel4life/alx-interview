@@ -1,7 +1,12 @@
 #!/usr/bin/python3
+"""Prime Game A function that returns the
+name of the player that won the most rounds
+If the winner cannot be determined, return None
+"""
 
 
 def primeNumbers(n):
+"""Function that finds the winner"""
     primeNos = []
     filtered = [True] * (n + 1)
     for prime in range(2, n + 1):
@@ -13,6 +18,7 @@ def primeNumbers(n):
 
 
 def isWinner(x, nums):
+"""function that round the winner"""
     if x is None or nums is None or x == 0 or nums == []:
         return None
     Maria = Ben = 0
